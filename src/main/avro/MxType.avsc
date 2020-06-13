@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "name": "MxType",
+  "namespace": "org.swiftmxtransformer.model",
+  "fields": [
+    {
+      "name": "businessProcess",
+      "type": "string"
+    },
+    {
+      "name": "functionality",
+      "type": "string"
+    },
+    {
+      "name": "variant",
+      "type": "string"
+    },
+    {
+      "name": "version",
+      "type": "string"
+    }
+  ]
+}

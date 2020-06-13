@@ -1,0 +1,18 @@
+streams:
+  application-id: swiftmx-kafka-transformer
+  bootstrap-servers: 127.0.0.1:9092
+  schema-registry-url: http://localhost:8081
+  topics:
+    swiftmx-inbound-topic: swiftmx-inbound-topic
+    swiftmx-event-topic: swiftmx-event-topic
+
+schemas:
+  type-to-schema:
+    "[seev.031.001.10]": classpath:xsd/seev.031.001.10.xsd
+    "[seev.032.001.07]": classpath:xsd/seev.032.001.07.xsd
+
+transformer:
+  type-to-queries:
+    "[seev.031.001.10]":
+      - //Document/CorpActnNtfctn/NtfctnGnlInf/NtfctnTp
+      - //Document/CorpActnNtfctn/NtfctnGnlInf/ElgblBalInd
