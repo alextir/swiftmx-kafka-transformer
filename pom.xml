@@ -21,7 +21,7 @@
         <pw-swift-core.version>SRU2019-8.0.2</pw-swift-core.version>
         <jaxb2-maven-plugin.version>2.5.0</jaxb2-maven-plugin.version>
         <jaxb-api.version>2.3.1</jaxb-api.version>
-        <avro.version>1.9.2</avro.version>
+        <avro.version>1.11.3</avro.version>
         <hibernate-validator.version>6.1.5.Final</hibernate-validator.version>
         <validation-api.version>2.0.1.Final</validation-api.version>
         <commons-codec.version>1.14</commons-codec.version>
